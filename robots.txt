@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://michaelmeshbrad.github.io/LowMoorScouts/sitemap.xml
