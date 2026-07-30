@@ -277,3 +277,161 @@ a:hover {
     margin-top: 0.6rem;
   }
 }
+/* ADULT VOLUNTEER PAGE */
+
+.volunteer-hero {
+  background: #efe6fa;
+  text-align: center;
+  padding: 4rem 1rem;
+}
+
+.volunteer-hero h2 {
+  color: #7413dc;
+  font-size: clamp(2rem, 5vw, 3.2rem);
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+.volunteer-hero p {
+  max-width: 750px;
+  margin: 0 auto 1.5rem;
+  font-size: 1.1rem;
+}
+
+.volunteer-btn {
+  display: inline-block;
+  background: #7413dc;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border-radius: 2rem;
+  font-weight: 600;
+  transition: background 0.3s, transform 0.3s;
+}
+
+.volunteer-btn:hover {
+  background: #5d0fad;
+  color: #fff;
+  text-decoration: none;
+  transform: translateY(-2px);
+}
+
+.volunteer-section {
+  background: #fff;
+  padding: 3rem 0;
+  text-align: center;
+}
+
+.volunteer-section.alt-background {
+  background: #f7f4fc;
+}
+
+.volunteer-section h3 {
+  color: #7413dc;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.volunteer-intro {
+  max-width: 800px;
+  margin: 0 auto 2rem;
+}
+
+.volunteer-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 1.5rem;
+}
+
+.volunteer-card {
+  background: #f7f4fc;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s;
+}
+
+.alt-background .volunteer-card {
+  background: #fff;
+}
+
+.volunteer-card:hover {
+  transform: translateY(-5px);
+}
+
+.volunteer-card h4 {
+  color: #7413dc;
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.volunteer-role-list {
+  max-width: 800px;
+  margin: 2rem auto 0;
+  list-style: none;
+  text-align: left;
+}
+
+.volunteer-role-list li {
+  position: relative;
+  background: #f7f4fc;
+  margin-bottom: 0.8rem;
+  padding: 1rem 1rem 1rem 3rem;
+  border-radius: 0.75rem;
+  border-left: 5px solid #7413dc;
+}
+
+.volunteer-role-list li::before {
+  content: "✓";
+  position: absolute;
+  left: 1rem;
+  color: #7413dc;
+  font-weight: 700;
+}
+
+.volunteer-contact {
+  background: #7413dc;
+  color: #fff;
+  text-align: center;
+  padding: 3.5rem 1rem;
+}
+
+.volunteer-contact h3 {
+  color: #fff;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.volunteer-contact p {
+  max-width: 750px;
+  margin: 0 auto 1.5rem;
+}
+
+.volunteer-contact .volunteer-btn {
+  background: #fff;
+  color: #7413dc;
+}
+
+.volunteer-contact .volunteer-btn:hover {
+  background: #e5d4f9;
+  color: #7413dc;
+}
+
+.volunteer-small-print {
+  margin-top: 1rem !important;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 600px) {
+  .volunteer-hero {
+    padding: 3rem 1rem;
+  }
+
+  .volunteer-section {
+    padding: 2.5rem 0;
+  }
+
+  .volunteer-section h3,
+  .volunteer-contact h3 {
+    font-size: 1.7rem;
+  }
+}
